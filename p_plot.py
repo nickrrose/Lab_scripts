@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pandas.plotting import parallel_coordinates
 # Open .bed file
 content = []
-with open("14455.merged_simple.bed")as f:
+with open("merged_simple.bed")as f:
     for line in f:
         content.append(line.strip().split())
 # Set first row as the header
